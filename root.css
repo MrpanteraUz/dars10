@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+}
+:root{
+    --primary_color: #63d322;
+    --secondary_color: #2522d3;
+    --dovudxon: 38px;
+    --chegara: 1px solid #1f35af91;
+}
+::-webkit-scrollbar{
+    width: 15px;
+    background-color: gold;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #f00800;
+    border-radius: 15px;
+}
+
+h1{
+    color: var(--rang);
+    font-size: var(--dovudxon);
+    border: var(--chegara);
+}
+h2{
+    color: var(--rang);
+    font-size: var(--dovudxon);
+}
+p{
+    color: var(--rang);
+    font-size: var(--dovudxon);
+}
+
+
+
+
+

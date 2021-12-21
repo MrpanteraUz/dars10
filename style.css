@@ -1,0 +1,55 @@
+
+#h1_id{
+    color: yellow !important;
+    font-style: italic;
+    text-decoration: underline;
+}
+.h1_class{
+    color: red ;
+    background: burlywood;
+    text-decoration: none;
+}
+h1{
+    color: blue !important;
+    text-decoration: underline;
+}
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-image: url('./photo_2021-04-28_11-27-34.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* opacity: .5; */
+    background: #0000006b;
+    /* filter: blur(5px); */
+    /* filter: brightness(200%); */
+    /* filter: contrast(30%) blur(3px); */
+
+    /* filter: drop-shadow(30px 10px 4px #4444dd); */
+
+    filter: grayscale(100%);
+
+    /* filter: hue-rotate(100deg); */
+
+    /* filter: invert(30%); */
+
+    /* filter: saturate(200%); */
+
+    /* filter: sepia(100%); */
+
+    /* filter: blur(5px); */
+
+
+
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(15px);
+
+
+}
+
+
+
+
